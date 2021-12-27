@@ -1,10 +1,13 @@
 {
     "name":"Editor de texto",
     "version":"1.0",
-    "description":"Edita textos conforme preferências do usuário",
-    "browser_action":{
-        "default_popup":"index.html"
-    },
+    "author": "Esdras Gomes",
+    "description":"Edita textos conforme preferências do usuário.",
+    "manifest_version": 2,
 
-    "manifest_version":2
+    "browser_action":{
+        "default_popup":"index.html",
+        "default_title": "Editor de texto",
+        "default_icon": "icon"
+    }
 }
